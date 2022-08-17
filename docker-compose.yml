@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  mantenimiento:
+    image: mantenimiento
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
